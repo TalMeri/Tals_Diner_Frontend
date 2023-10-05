@@ -1,0 +1,22 @@
+.delimiterIcons{
+    width: 35px;
+    height: 35px;
+}
+
+.delimiterIcons:hover{
+    color:#5d88d4;
+}
+
+.itemInfoCart{
+    align-items: center;
+    align-content: center;
+    text-align: left;
+}
+
+.cartItemDescription{
+    margin-top: 7px;
+    font-weight: bold;
+    font-size: 18px;
+    padding-right: 8px;
+    text-align: left;
+}

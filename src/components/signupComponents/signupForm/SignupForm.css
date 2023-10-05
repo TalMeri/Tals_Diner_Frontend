@@ -1,0 +1,29 @@
+.signupInput{
+    outline: none;
+    border: 1px solid #aaabb3;
+    border-radius: 5px;
+    margin: 10px;
+    height: 35px;
+    width: 250px;
+    line-height: 22px;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.signupInput:focus {
+    border-color: #5182d6;
+  }
+  
+  .signupButton{
+    margin: 20px;
+  }
+
+  .errormessage {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 13px;
+    color:#d65151;
+    font-weight: bold;
+
+  }

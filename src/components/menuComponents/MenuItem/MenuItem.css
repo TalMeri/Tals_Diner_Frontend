@@ -1,0 +1,49 @@
+
+.itemContanier {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+
+
+.itemInfo{
+    display: flex;
+    
+    .itemImage {
+        width: 100px;
+        height: 70px;
+        margin-right: 10px;
+        border-radius: 3px;
+    }
+    .itemPriceContanier {
+        margin-top: 0.25rem;
+        font-size: 14px;
+        text-align: left;
+    }
+}
+
+.itemText{
+    padding-right: 8px;
+}
+
+.itemAmountContanier{
+    display: flex;
+    padding-bottom: 5px;
+    align-items: center;
+    align-content: center;
+}
+
+.addToCart{
+    padding-right: 8px;
+}
+
+.itemDescription {
+    margin-top: 7px;
+    font-weight: bold;
+    font-size: 18px;
+    padding-right: 8px;
+    text-align: left;
+}

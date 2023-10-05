@@ -1,0 +1,23 @@
+.cartItems {
+    margin: 32px auto;
+    margin-top:  112px;
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.CartTotals{
+    display: flex;
+}
+
+.totalPrice{
+    padding-right:15px;
+}
+
+.sadIcon{
+    height: 20px;
+    width: 20px;
+}

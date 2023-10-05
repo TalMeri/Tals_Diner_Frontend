@@ -1,0 +1,89 @@
+.headers {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5rem;
+    background-color: #5d88d4;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 10;
+}
+.logo {
+    width: 50px;
+    height: 45px;
+    padding-right: 3px;
+}
+.cart-icon{
+    width: 50px;
+    height: 20px;
+}
+
+.headerscontanierLeft{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.headerscontanierRight{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    padding-right: 50px;
+}
+
+.headersTitle{
+    padding-right: 15px;
+    padding-bottom: 0;
+}
+
+.headersName{
+    align-self: end;
+    font-size: 15px;
+    padding-right: 25px;
+    margin-bottom: 25px;
+}
+.cartcontanier{
+    display: flex;
+    padding: 5px;
+    padding-right: 10px;
+    position: relative;
+
+}
+
+.signupLink{
+    padding-right: 15px;
+}
+
+.signupLink:hover{
+    cursor: pointer;
+}
+.loginLink:hover{
+    cursor: pointer;
+}
+.menuLink:hover{
+    cursor: pointer;
+}
+.logout:hover{
+    cursor: pointer;
+}
+
+.cartcontanier{
+    cursor: pointer;
+}
+
+
+.amountcart{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: pink;
+    border-radius: 50%;
+    bottom: 25px;
+    left: 40px;
+}
