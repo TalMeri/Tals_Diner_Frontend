@@ -9,7 +9,7 @@
  4. Cart Microservice: https://github.com/TalMeri/Tals_Cart_microservice
  5. Order Microservice: https://github.com/TalMeri/Tals_Order_microservice
 
-To run the project
+## To run the project
  1. Install this project and all the integrating projects above using: `npm install`
  2. Run this project and all the integrating projects above using `npm start`
  3. Got to http://localhost:3000/
